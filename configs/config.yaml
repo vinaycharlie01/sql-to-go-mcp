@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+database:
+  driver: postgres
+  host: localhost
+  port: 5432
+  user: postgres
+  password: postgres
+  dbname: app
+
+logging:
+  level: info
+  format: json
+
+generation:
+  orm: gorm
+  testing: true
+  benchmark: true
